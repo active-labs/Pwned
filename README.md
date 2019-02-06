@@ -151,6 +151,40 @@ Date         | None
 10:54:38 root@kali Pwned 
 ```
 
+Checking domain for any breach
+```
+11:10:37 root@kali Pwned python Pwned.py -cd adobe.com
+
+###########################################################        
+______                         _ 
+| ___ \                       | |
+| |_/ /_      ___ __   ___  __| |
+|  __/\ \ /\ / / '_ \ / _ \/ _` |
+| |    \ V  V /| | | |  __/ (_| |
+\_|     \_/\_/ |_| |_|\___|\__,_|
+
+
+[>] Created by: Hashim Jawad (@ihack4falafel) of ACTIVELabs
+[>] Version   : 1.0
+###########################################################
+
+[+] Checking domain for possible breaches..
+[!] Domain has been pwned
+[+] Listing breaches..
+Breach number: 1
+###########################################################
+Breach Name | Adobe
+Domain      | adobe.com
+Breach Date | 2013-10-04
+Fabricated  | False
+Verified    | True
+Retired     | False
+Spam        | False
+###########################################################
+[+] Saving results to adobe.com_02-06-2019-11-10-48.csv..
+11:10:49 root@kali Pwned 
+```
+
 ## Contributing
 Pull request are always welcome.
 
